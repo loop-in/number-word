@@ -1,7 +1,8 @@
 # Test Plan
 
 ### Scope
-The test will only focus on the result of the algorithm, to make sure the result is correct for different kind of format which is allowed
+The test will only focus on the result of the algorithm, to make sure the result is correct for different kind of format being used.
+
 **NOTE:** Will not support larger than QUADRILLION based on current settings, if required, settings must be change
 
 ### Approach
