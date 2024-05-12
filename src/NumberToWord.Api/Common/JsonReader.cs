@@ -6,7 +6,14 @@ public static class JsonReader<T> where T : class
 {
     public static T? GetObject(string filePath)
     {
-        string jsonString = File.ReadAllText(filePath);
-        return JsonSerializer.Deserialize<T>(jsonString);
+        try
+        {
+            string jsonString = File.ReadAllText(filePath);
+            return JsonSerializer.Deserialize<T>(jsonString);
+        }
+        catch
+        {
+            return default;
+        }
     }
 }
