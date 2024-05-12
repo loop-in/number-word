@@ -48,6 +48,7 @@ public class ConverterServiceTest
     [TestCase("567.45", "FIVE HUNDRED AND SIXTY-SEVEN DOLLARS AND FOURTY-FIVE CENTS")]
     [TestCase("700450.90", "SEVEN HUNDRED THOUSAND FOUR HUNDRED AND FIFTY DOLLARS AND NINETY CENTS")]
     [TestCase("2300880", "TWO MILLION THREE HUNDRED THOUSAND EIGHT HUNDRED AND EIGHTY DOLLARS")]
+    [TestCase("90000000000000000000.80", "NINETY THOUSAND QUADRILLION DOLLARS AND EIGHTY CENTS")]
     public void MoneyToWord_ValidFormat_ReturnCorrectWord(string value, string result)
     {
         // Arrange
@@ -74,9 +75,11 @@ public class ConverterServiceTest
 
     [Test]
     [TestCase("ABC")]
-    [TestCase("00.09")]
-    [TestCase("0555")]
-    [TestCase("100.AA")]
+    [TestCase("123.999")]
+    [TestCase("123.45.67")]
+    [TestCase("123.AA")]
+    [TestCase("0123.34")]
+    [TestCase("$123.45")]
     public void MoneyToWord_InvalidFormat_ReturnError(string value)
     {
         // Arrange

@@ -4,11 +4,6 @@ namespace NumberToWord.Test.Applications.Utils;
 
 public class FormatValidatorTest
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
     [TestCase("0")]
     [TestCase("0.80")]

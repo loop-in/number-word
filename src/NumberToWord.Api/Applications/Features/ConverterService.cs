@@ -100,13 +100,27 @@ public class ConverterService(
         var numberGroups = new Dictionary<string, string>();
         int currentOrderIndex = 0;
         int currentSize;
+        int totalDigitProcess = 0;
+        string key = string.Empty;
         for (int i = value.Length - 1; i >= 0; i -= currentSize)
         {
-            currentSize = orders[currentOrderIndex].TotalDigit;
+            if (currentOrderIndex >= orders.Count)
+            {
+                // No more settings, take the remaining digit
+                currentSize = value.Length - totalDigitProcess;
+                key = "-";
+            }
+            else
+            {
+                currentSize = orders[currentOrderIndex].TotalDigit;
+                key = orders[currentOrderIndex].Word;
+            }
+
             int startIndex = Math.Max(i - currentSize + 1, 0);
             int length = i - startIndex + 1;
             string numberGroup = value.Substring(startIndex, length);
-            numberGroups.Add(orders[currentOrderIndex].Word, numberGroup);
+            totalDigitProcess += currentSize;
+            numberGroups.Add(key, numberGroup);
 
             currentOrderIndex++;
         }
