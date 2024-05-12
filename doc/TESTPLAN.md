@@ -6,7 +6,7 @@ The test will only focus on the result of the algorithm, to make sure the result
 
 ### Approach
 - The test will mainly run using manual and automated testing for functional testing
-- Automated testing will be added in CICD pipeline which focus on code unit testing, it will triggered when the code is plan to be merge to the main branch
+- Automated testing will be added in CICD pipeline which focus on code unit testing, it will be triggered when the code is plan to be merge to the main branch
 
 ### Test Case
 Invalid input as below and it should return "Success = false"
@@ -16,6 +16,7 @@ Invalid input as below and it should return "Success = false"
 - 123.AA
 - 0123.34
 - $123.45
+
 Valid input as below and it should return "Success = true" with the correct word in the response
 - 0 - ZERO DOLLARS
 - 0.80 - EIGHTY CENTS

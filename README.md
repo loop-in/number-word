@@ -1,8 +1,8 @@
 # number-to-word
 
 ### Link
-[Code Approach](doc/CODE.md)
-[Test Plan](doc/TESTPLAN.md)
+- [Code Approach](doc/CODE.md)
+- [Test Plan](doc/TESTPLAN.md)
 
 ### Backend
 1. To start the backend, just open the solution file **src/NumberToWord.sln** with Visual Studio
