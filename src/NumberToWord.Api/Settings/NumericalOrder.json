@@ -1,0 +1,32 @@
+[
+    {
+        "Sequence": 1,
+        "TotalDigit": 2,
+        "Word": "HUNDRED"
+    },
+    {
+        "Sequence": 2,
+        "TotalDigit": 1,
+        "Word": "THOUSAND"
+    },
+    {
+        "Sequence": 3,
+        "TotalDigit": 3,
+        "Word": "MILLION"
+    },
+    {
+        "Sequence": 4,
+        "TotalDigit": 3,
+        "Word": "BILLION"
+    },
+    {
+        "Sequence": 5,
+        "TotalDigit": 3,
+        "Word": "TRILLION"
+    },
+    {
+        "Sequence": 6,
+        "TotalDigit": 3,
+        "Word": "QUADRILLION"
+    }
+]

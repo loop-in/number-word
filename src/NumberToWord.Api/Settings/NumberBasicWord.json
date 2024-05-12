@@ -1,0 +1,114 @@
+[
+    {
+        "Number": "0",
+        "Word": "ZERO"
+    },
+    {
+        "Number": "1",
+        "Word": "ONE"
+    },
+    {
+        "Number": "2",
+        "Word": "TWO"
+    },
+    {
+        "Number": "3",
+        "Word": "THREE"
+    },
+    {
+        "Number": "4",
+        "Word": "FOUR"
+    },
+    {
+        "Number": "5",
+        "Word": "FIVE"
+    },
+    {
+        "Number": "6",
+        "Word": "SIX"
+    },
+    {
+        "Number": "7",
+        "Word": "SEVEN"
+    },
+    {
+        "Number": "8",
+        "Word": "EIGHT"
+    },
+    {
+        "Number": "9",
+        "Word": "NINE"
+    },
+    {
+        "Number": "10",
+        "Word": "TEN"
+    },
+    {
+        "Number": "11",
+        "Word": "ELEVEN"
+    },
+    {
+        "Number": "12",
+        "Word": "TWELVE"
+    },
+    {
+        "Number": "13",
+        "Word": "THIRTEEN"
+    },
+    {
+        "Number": "14",
+        "Word": "FOURTEEN"
+    },
+    {
+        "Number": "15",
+        "Word": "FIFTEEN"
+    },
+    {
+        "Number": "16",
+        "Word": "SIXTEEN"
+    },
+    {
+        "Number": "17",
+        "Word": "SEVENTEEN"
+    },
+    {
+        "Number": "18",
+        "Word": "EIGHTEEN"
+    },
+    {
+        "Number": "19",
+        "Word": "NINETEEN"
+    },
+    {
+        "Number": "20",
+        "Word": "TWENTY"
+    },
+    {
+        "Number": "30",
+        "Word": "THIRTY"
+    },
+    {
+        "Number": "40",
+        "Word": "FOURTY"
+    },
+    {
+        "Number": "50",
+        "Word": "FIFTY"
+    },
+    {
+        "Number": "60",
+        "Word": "SIXTY"
+    },
+    {
+        "Number": "70",
+        "Word": "SEVENTY"
+    },
+    {
+        "Number": "80",
+        "Word": "EIGHTY"
+    },
+    {
+        "Number": "90",
+        "Word": "NINETY"
+    }
+]
