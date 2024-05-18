@@ -21,7 +21,7 @@ This deployment approach is a simple approach based on Azure App Service Kudu AP
 3. Set the environment variables in your CICD for $Username, $Password and $AppName, AppName will be the App Service name you created in Azure
 4. Run the following command in root directory
 >`sh deploy.sh`
-5. Open browser and go to https://<AppName>.azurewebsites.net/swagger
+5. Open browser and go to https://&lt;AppName&gt;.azurewebsites.net/swagger, replace AppName with the one you use
 
 <ins>Docker</ins>
 This deployment approach will run the application locally in docker container
